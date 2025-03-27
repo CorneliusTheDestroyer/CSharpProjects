@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "ComicBookApi.Controllers.ComicsController",
+    "Method": "CreateComic",
+    "RelativePath": "api/Comics",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comic",
+        "Type": "ComicBookApi.Models.Comic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComicBookApi.Controllers.ComicsController",
+    "Method": "GetComics",
+    "RelativePath": "api/Comics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ComicBookApi.Models.Comic, ComicBookApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComicBookApi.Controllers.ComicsController",
+    "Method": "GetComic",
+    "RelativePath": "api/Comics/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ComicBookApi.Models.Comic",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComicBookApi.Controllers.ComicsController",
+    "Method": "UpdateComic",
+    "RelativePath": "api/Comics/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "comic",
+        "Type": "ComicBookApi.Models.Comic",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComicBookApi.Controllers.ComicsController",
+    "Method": "DeleteComic",
+    "RelativePath": "api/Comics/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

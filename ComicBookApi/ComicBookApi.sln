@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicBookApi", "ComicBookApi\ComicBookApi.csproj", "{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50E6E0B5-3B6F-46EE-A893-FCF0E6827765}
+	EndGlobalSection
+EndGlobal

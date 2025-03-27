@@ -1,0 +1,428 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ComicBookApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Comics": {
+      "post": {
+        "tags": [
+          "Comics"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comic"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comic"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comic"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Comics"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Comic"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Comic"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Comic"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Comics/{id}": {
+      "get": {
+        "tags": [
+          "Comics"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Comic"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Comic"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Comic"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Comics"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comic"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comic"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comic"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Comics"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Character": {
+        "type": "object",
+        "properties": {
+          "characterId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "alias": {
+            "type": "string",
+            "nullable": true
+          },
+          "comicCharacters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComicCharacter"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Comic": {
+        "type": "object",
+        "properties": {
+          "comicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "releaseDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "seriesId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "series": {
+            "$ref": "#/components/schemas/Series"
+          },
+          "comicCharacters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComicCharacter"
+            },
+            "nullable": true
+          },
+          "comicCreators": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComicCreator"
+            },
+            "nullable": true
+          },
+          "comicEvents": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComicEvent"
+            },
+            "nullable": true
+          },
+          "stories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Story"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComicCharacter": {
+        "type": "object",
+        "properties": {
+          "comicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "comic": {
+            "$ref": "#/components/schemas/Comic"
+          },
+          "characterId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "character": {
+            "$ref": "#/components/schemas/Character"
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComicCreator": {
+        "type": "object",
+        "properties": {
+          "comicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "comic": {
+            "$ref": "#/components/schemas/Comic"
+          },
+          "creatorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "creator": {
+            "$ref": "#/components/schemas/Creator"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComicEvent": {
+        "type": "object",
+        "properties": {
+          "comicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "comic": {
+            "$ref": "#/components/schemas/Comic"
+          },
+          "eventId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "event": {
+            "$ref": "#/components/schemas/Event"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Creator": {
+        "type": "object",
+        "properties": {
+          "creatorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "comicCreators": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComicCreator"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Event": {
+        "type": "object",
+        "properties": {
+          "eventId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "comicEvents": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComicEvent"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Series": {
+        "type": "object",
+        "properties": {
+          "seriesId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "comics": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Comic"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Story": {
+        "type": "object",
+        "properties": {
+          "storyId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          },
+          "comicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "comic": {
+            "$ref": "#/components/schemas/Comic"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
