@@ -1,0 +1,53 @@
+# 📚 Comic Book Web API – Project Checklist
+
+## ✅ Phase 1: Core API Functionality
+- [x] Create SQL Server schema with realistic comic book data
+- [x] Insert sample data (Spider-Man, creators, events, etc.)
+- [x] Set up .NET 8 Web API project with Swagger
+- [x] Add EF Core packages via NuGet
+- [x] Add connection string to appsettings.json
+- [x] Manually create EF Core entity classes
+- [ ] Create ComicDbContext.cs and register in Program.cs
+- [x] Build ComicsController (manual CRUD using EF Core)
+- [ ] Build CharactersController
+- [ ] Build SeriesController
+- [ ] Build CreatorsController
+- [ ] Build EventsController
+- [ ] Build StoriesController
+
+---
+
+## 🧼 Phase 2: Clean API Architecture
+- [ ] Create DTOs for all major entities (ComicDTO, CharacterDTO, etc.)
+- [ ] Include related data in responses (e.g., Comic includes Series + Characters)
+- [ ] Add AutoMapper for clean mapping (optional)
+- [ ] Add model validation (e.g. `[Required]`, `[MaxLength]`)
+- [ ] Add error handling helpers (NotFound, BadRequest responses)
+
+---
+
+## 🔐 Phase 3: Secure the API
+- [ ] Add JWT authentication
+- [ ] Add role-based authorization (e.g., Admin, Editor)
+- [ ] Secure endpoints (e.g., only Admins can POST/PUT/DELETE)
+
+---
+
+## ⚡ Phase 4: Performance Improvements
+- [ ] Add pagination to GET endpoints (e.g. `/api/comics?page=1`)
+- [ ] Add caching (e.g., MemoryCache or ResponseCache)
+- [ ] Ensure all controllers use async methods
+
+---
+
+## 🚀 Phase 5: Deployment
+- [ ] Add Docker support (Dockerfile + docker-compose)
+- [ ] Deploy to Azure App Service or self-hosted IIS
+- [ ] Add optional CI/CD pipeline (GitHub Actions)
+
+---
+
+## 🔧 Custom To-Dos
+- [ ] Add DTOs and custom responses (e.g., include Series/Characters in Comic)
+- [ ] Add validation or error handling helpers
+- [ ] Build CharactersController
