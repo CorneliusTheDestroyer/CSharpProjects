@@ -7,13 +7,13 @@
 - [x] Add EF Core packages via NuGet
 - [x] Add connection string to appsettings.json
 - [x] Manually create EF Core entity classes
-- [ ] Create ComicDbContext.cs and register in Program.cs
+- [X] Create ComicDbContext.cs and register in Program.cs
 - [x] Build ComicsController (manual CRUD using EF Core)
-- [ ] Build CharactersController
-- [ ] Build SeriesController
-- [ ] Build CreatorsController
-- [ ] Build EventsController
-- [ ] Build StoriesController
+- [X] Build CharactersController
+- [X] Build SeriesController
+- [X] Build CreatorsController
+- [X] Build EventsController
+- [X] Build StoriesController
 
 ---
 
@@ -48,6 +48,4 @@
 ---
 
 ## 🔧 Custom To-Dos
-- [ ] Add DTOs and custom responses (e.g., include Series/Characters in Comic)
-- [ ] Add validation or error handling helpers
-- [ ] Build CharactersController
+
