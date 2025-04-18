@@ -11,7 +11,7 @@ using ComicBookApi.Responses;
 
 namespace ComicBookApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ComicsController : ControllerBase
