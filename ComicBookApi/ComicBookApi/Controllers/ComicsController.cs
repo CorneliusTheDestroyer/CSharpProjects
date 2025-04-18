@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using ComicBookApi.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ComicBookApi.Controllers
 {
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ComicsController : ControllerBase
