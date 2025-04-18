@@ -14,6 +14,7 @@ namespace ComicBookApi.Mapping
                     opt => opt.MapFrom(src => src.Series != null ? src.Series.Title : null));
 
             CreateMap<Character, CharacterDTO>();
+            CreateMap<CharacterCreateDTO, Character>();
 
         }
     }

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ComicBookApi.DTOs;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ComicBookApi.Controllers
 {
@@ -42,39 +43,32 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Character>> CreateCharacter([FromBody] Character character)
+        public async Task<ActionResult<CharacterDTO>> CreateCharacter([FromBody] CharacterCreateDTO dto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            
+            var character = _mapper.Map<Character>(dto);
             _context.Characters.Add(character);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetCharacter), new { id = character.CharacterId }, character);
+            
+            var result = _mapper.Map<CharacterDTO>(character);
+            return CreatedAtAction(nameof(GetCharacter), new { id = character.CharacterId }, result);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCharacter(int id, [FromBody] Character character)
+        public async Task<IActionResult> UpdateCharacter(int id, [FromBody] CharacterCreateDTO dto)
         {
-            if (id != character.CharacterId)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(character).State = EntityState.Modified;
+            var character = await _context.Characters.FindAsync(id);
+            if (character == null)
+                return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Characters.Any(e => e.CharacterId == id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            _mapper.Map(dto, character); // update existing character with new values
 
+            await _context.SaveChangesAsync();
             return NoContent();
         }
 
