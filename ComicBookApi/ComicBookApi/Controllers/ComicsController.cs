@@ -3,6 +3,8 @@ using ComicBookApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using ComicBookApi.DTOs;
 
 namespace ComicBookApi.Controllers
 {
@@ -11,10 +13,12 @@ namespace ComicBookApi.Controllers
     public class ComicsController : ControllerBase
     {
         private readonly ComicDbContext _context;
+        private readonly IMapper _mapper;
 
-        public ComicsController(ComicDbContext context)
+        public ComicsController(ComicDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpPost]
@@ -26,11 +30,15 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Comic>>> GetComics()
+        public async Task<ActionResult<IEnumerable<ComicDTO>>> GetComics()
         {
-            return await _context.Comics
-                .Include(c => c.Series)
+            var comic = await _context.Comics
+                .Include(c => c.Series) // Needed for SeriesTitle mapping
                 .ToListAsync();
+
+            var comicDTOs = _mapper.Map<List<ComicDTO>>(comic);
+
+            return Ok(comicDTOs);
         }
 
         [HttpGet("{id}")]

@@ -232,7 +232,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Comic"
+                    "$ref": "#/components/schemas/ComicDTO"
                   }
                 }
               },
@@ -240,7 +240,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Comic"
+                    "$ref": "#/components/schemas/ComicDTO"
                   }
                 }
               },
@@ -248,7 +248,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Comic"
+                    "$ref": "#/components/schemas/ComicDTO"
                   }
                 }
               }
@@ -1222,6 +1222,33 @@
           },
           "creator": {
             "$ref": "#/components/schemas/Creator"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ComicDTO": {
+        "type": "object",
+        "properties": {
+          "comicId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "releaseDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "seriesTitle": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
