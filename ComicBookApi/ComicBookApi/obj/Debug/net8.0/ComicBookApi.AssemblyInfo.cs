@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComicBookApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e23589fa543a94d3368de2ed3ba469784c892af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd6177b8b4a784ff728c203dd3af764800ddb2e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComicBookApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComicBookApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
