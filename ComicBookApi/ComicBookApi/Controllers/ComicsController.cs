@@ -7,6 +7,7 @@ using AutoMapper;
 using ComicBookApi.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Caching.Memory;
+using ComicBookApi.Responses;
 
 namespace ComicBookApi.Controllers
 {
@@ -80,10 +81,10 @@ namespace ComicBookApi.Controllers
                 .FirstOrDefaultAsync(c => c.ComicId == id);
 
             if (comic == null)
-                return NotFound();
+                return NotFound(ResponseHelper.Fail<ComicDTO>("Comic not found"));
 
             var comicDTO = _mapper.Map<ComicDTO>(comic);
-            return Ok(comicDTO);
+            return Ok(ResponseHelper.Ok(comicDTO, "Comic retrieved successfully"));
         }
 
         [Authorize(Roles = "Admin")]

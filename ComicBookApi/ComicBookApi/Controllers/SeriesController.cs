@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using ComicBookApi.DTOs;
 using Microsoft.AspNetCore.Authorization;
+using ComicBookApi.Responses;
 
 namespace ComicBookApi.Controllers
 {
@@ -38,10 +39,10 @@ namespace ComicBookApi.Controllers
             var series = await _context.Series.FindAsync(id);
 
             if (series == null)
-                return NotFound();
+                return NotFound(ResponseHelper.Fail<SeriesDTO>("Series not found"));
 
             var dto = _mapper.Map<SeriesDTO>(series);
-            return Ok(dto);
+            return Ok(ResponseHelper.Ok(dto, "Series retrieved successfully"));
         }
 
         [Authorize(Roles = "Admin")]

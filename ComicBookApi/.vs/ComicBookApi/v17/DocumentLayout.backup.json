@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Learning\\Projects\\ComicBookApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\responses\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\responses\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\storiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,11 +154,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "ResponseHelper.cs",
+              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\ResponseHelper.cs",
+              "RelativeDocumentMoniker": "ComicBookApi\\Responses\\ResponseHelper.cs",
+              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\ResponseHelper.cs",
+              "RelativeToolTip": "ComicBookApi\\Responses\\ResponseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T17:48:49.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "ComicBookApi\\Responses\\BaseResponse.cs",
+              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\BaseResponse.cs",
+              "RelativeToolTip": "ComicBookApi\\Responses\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T17:47:44.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\AuthController.cs",
@@ -163,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Services\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Services\\JwtTokenService.cs",
@@ -176,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\appsettings.json",
               "RelativeDocumentMoniker": "ComicBookApi\\appsettings.json",
@@ -189,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "StoryCreateDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\StoryCreateDTO.cs",
@@ -202,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "EventCreateDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\EventCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\EventCreateDTO.cs",
@@ -215,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CreatorCreateDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
@@ -228,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "SeriesCreateDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
@@ -241,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "StoryDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\StoryDTO.cs",
@@ -254,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "EventDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\EventDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\EventDTO.cs",
@@ -267,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CreatorDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CreatorDTO.cs",
@@ -280,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "SeriesDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\SeriesDTO.cs",
@@ -293,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ComicCreateDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\ComicCreateDTO.cs",
@@ -306,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "CharacterCreateDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
@@ -319,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CharacterDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CharacterDTO.cs",
@@ -332,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ComicProfile.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Mapping\\ComicProfile.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Mapping\\ComicProfile.cs",
@@ -345,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ComicDTO.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\ComicDTO.cs",
@@ -358,12 +392,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ComicBookApi",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj",
               "RelativeDocumentMoniker": "ComicBookApi\\ComicBookApi.csproj",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj",
-              "RelativeToolTip": "ComicBookApi\\ComicBookApi.csproj",
+              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj*",
+              "RelativeToolTip": "ComicBookApi\\ComicBookApi.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-18T10:02:59.556Z",
@@ -371,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StoriesController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\StoriesController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\StoriesController.cs",
@@ -384,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\EventsController.cs",
@@ -397,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CreatorsController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\CreatorsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\CreatorsController.cs",
@@ -410,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SeriesController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\SeriesController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\SeriesController.cs",
@@ -423,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CharactersController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\CharactersController.cs",
@@ -436,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Character.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Character.cs",
@@ -449,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Comic.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Comic.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Comic.cs",
@@ -462,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ComicEvent.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicEvent.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\ComicEvent.cs",
@@ -475,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Creator.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Creator.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Creator.cs",
@@ -488,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Event.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Event.cs",
@@ -501,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Series.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Series.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Series.cs",
@@ -514,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Story.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Story.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Story.cs",
@@ -527,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ComicDbContext.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Data\\ComicDbContext.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Data\\ComicDbContext.cs",
@@ -540,20 +574,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ComicsController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\ComicsController.cs",
               "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\ComicsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA1wDEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:22:19.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ComicCreator.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicCreator.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\ComicCreator.cs",
@@ -566,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ComicCharacter.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicCharacter.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\ComicCharacter.cs",
@@ -579,13 +613,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Program.cs",
               "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeToolTip": "ComicBookApi\\Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:42:15.534Z",
               "EditorCaption": ""

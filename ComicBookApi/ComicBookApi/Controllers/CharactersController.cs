@@ -7,6 +7,7 @@ using ComicBookApi.DTOs;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Authorization;
+using ComicBookApi.Responses;
 
 namespace ComicBookApi.Controllers
 {
@@ -38,10 +39,10 @@ namespace ComicBookApi.Controllers
             var character = await _context.Characters.FindAsync(id);
 
             if (character == null)
-                return NotFound();
-            
+                return NotFound(ResponseHelper.Fail<CharacterDTO>("Character not found"));
+
             var characterDTO = _mapper.Map<CharacterDTO>(character);
-            return Ok(characterDTO);
+            return Ok(ResponseHelper.Ok(characterDTO, "Character retrieved successfully"));
         }
 
         [Authorize(Roles = "Admin")]
