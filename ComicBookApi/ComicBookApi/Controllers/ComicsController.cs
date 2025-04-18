@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using ComicBookApi.DTOs;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace ComicBookApi.Controllers
 {
@@ -16,11 +17,13 @@ namespace ComicBookApi.Controllers
     {
         private readonly ComicDbContext _context;
         private readonly IMapper _mapper;
+        private readonly IMemoryCache _cache;
 
-        public ComicsController(ComicDbContext context, IMapper mapper)
+        public ComicsController(ComicDbContext context, IMapper mapper, IMemoryCache cache)
         {
             _context = context;
             _mapper = mapper;
+            _cache = cache;
         }
 
         [Authorize(Roles = "Admin")]
@@ -46,15 +49,27 @@ namespace ComicBookApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ComicDTO>>> GetComics(int pageNumber = 1, int pageSize = 10)
         {
-            var comic = await _context.Comics
-                .Include(c => c.Series) // Needed for SeriesTitle mapping
-                .Skip((pageNumber - 1) * pageSize)
-                .Take(pageSize)
-                .ToListAsync();
+            string cacheKey = $"ComicsPage - {pageNumber} - Size - {pageSize}";
+            
+            if (!_cache.TryGetValue(cacheKey, out List<ComicDTO> cachedComics))
+            {
+                var comic = await _context.Comics
+                    .Include(c => c.Series)
+                    .Skip((pageNumber - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
 
-            var comicDTOs = _mapper.Map<List<ComicDTO>>(comic);
+                cachedComics = _mapper.Map<List<ComicDTO>>(comic);
 
-            return Ok(comicDTOs);
+                // Save to cache for 60 seconds
+                var cacheOptions = new MemoryCacheEntryOptions()
+                    .SetSlidingExpiration(TimeSpan.FromSeconds(60));
+
+                _cache.Set(cacheKey, cachedComics, cacheOptions);
+                
+            }
+
+            return Ok(cachedComics);
         }
 
         [HttpGet("{id}")]
