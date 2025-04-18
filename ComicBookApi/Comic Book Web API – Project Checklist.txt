@@ -17,19 +17,19 @@
 
 ---
 
-## 🧼 Phase 2: Clean API Architecture
+## 🔐 Phase 2: Secure the API
+- [ ] Add JWT authentication
+- [ ] Add role-based authorization (e.g., Admin, Editor)
+- [ ] Secure endpoints (e.g., only Admins can POST/PUT/DELETE)
+
+---
+
+## 🧼 Phase 3: Clean API Architecture
 - [ ] Create DTOs for all major entities (ComicDTO, CharacterDTO, etc.)
 - [ ] Include related data in responses (e.g., Comic includes Series + Characters)
 - [ ] Add AutoMapper for clean mapping (optional)
 - [ ] Add model validation (e.g. `[Required]`, `[MaxLength]`)
 - [ ] Add error handling helpers (NotFound, BadRequest responses)
-
----
-
-## 🔐 Phase 3: Secure the API
-- [ ] Add JWT authentication
-- [ ] Add role-based authorization (e.g., Admin, Editor)
-- [ ] Secure endpoints (e.g., only Admins can POST/PUT/DELETE)
 
 ---
 
