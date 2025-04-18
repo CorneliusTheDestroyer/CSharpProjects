@@ -1,51 +1,61 @@
-# 📚 Comic Book Web API – Project Checklist
+# 📚 Comic Book Web API – Project Checklist (Updated)
+
+---
 
 ## ✅ Phase 1: Core API Functionality
-- [x] Create SQL Server schema with realistic comic book data
+- [x] Design SQL Server schema with realistic comic book data
 - [x] Insert sample data (Spider-Man, creators, events, etc.)
 - [x] Set up .NET 8 Web API project with Swagger
 - [x] Add EF Core packages via NuGet
 - [x] Add connection string to appsettings.json
 - [x] Manually create EF Core entity classes
-- [X] Create ComicDbContext.cs and register in Program.cs
+- [x] Create ComicDbContext.cs and register in Program.cs
 - [x] Build ComicsController (manual CRUD using EF Core)
-- [X] Build CharactersController
-- [X] Build SeriesController
-- [X] Build CreatorsController
-- [X] Build EventsController
-- [X] Build StoriesController
+- [x] Build CharactersController
+- [x] Build SeriesController
+- [x] Build CreatorsController
+- [x] Build EventsController
+- [x] Build StoriesController
 
 ---
 
-## 🔐 Phase 2: Secure the API
-- [ ] Add JWT authentication
+## 🧼 Phase 2: Clean API Architecture (DTOs + Validation)
+- [ ] Create DTOs for main entities (ComicDTO, CharacterDTO, etc.)
+- [ ] Use AutoMapper to map models to DTOs
+- [ ] Add validation attributes (e.g., [Required], [MaxLength])
+- [ ] Add error handling (404, 400, etc.)
+- [ ] Return shaped, clean data instead of full entity models
+
+---
+
+## 🔐 Phase 3: Secure the API (JWT + Roles)
+- [ ] Install JWT Auth packages
+- [ ] Add JWT configuration to appsettings.json
+- [ ] Create JwtTokenService to generate tokens
+- [ ] Add AuthController with login endpoint
+- [ ] Register JWT auth in Program.cs
+- [ ] Protect selected routes with [Authorize]
 - [ ] Add role-based authorization (e.g., Admin, Editor)
-- [ ] Secure endpoints (e.g., only Admins can POST/PUT/DELETE)
-
----
-
-## 🧼 Phase 3: Clean API Architecture
-- [ ] Create DTOs for all major entities (ComicDTO, CharacterDTO, etc.)
-- [ ] Include related data in responses (e.g., Comic includes Series + Characters)
-- [ ] Add AutoMapper for clean mapping (optional)
-- [ ] Add model validation (e.g. `[Required]`, `[MaxLength]`)
-- [ ] Add error handling helpers (NotFound, BadRequest responses)
+- [ ] Enable Swagger JWT bearer token input
 
 ---
 
 ## ⚡ Phase 4: Performance Improvements
-- [ ] Add pagination to GET endpoints (e.g. `/api/comics?page=1`)
-- [ ] Add caching (e.g., MemoryCache or ResponseCache)
-- [ ] Ensure all controllers use async methods
+- [ ] Add pagination to GET endpoints
+- [ ] Add caching (MemoryCache or ResponseCache)
+- [ ] Ensure all endpoints are asynchronous
 
 ---
 
 ## 🚀 Phase 5: Deployment
-- [ ] Add Docker support (Dockerfile + docker-compose)
-- [ ] Deploy to Azure App Service or self-hosted IIS
-- [ ] Add optional CI/CD pipeline (GitHub Actions)
+- [ ] Add Docker support
+- [ ] Deploy to Azure / Kestrel / IIS
+- [ ] Add CI/CD pipeline (e.g., GitHub Actions)
 
 ---
 
-## 🔧 Custom To-Dos
-
+## ⚠️ NuGet + Swagger Version Compatibility
+- Swashbuckle.AspNetCore v8+ may cause Swagger UI rendering issues
+- Recommended version: **6.6.2** for dev testing
+- If using v8+, add full SwaggerDoc metadata manually to avoid:
+  `"Unable to render this definition..."` error
