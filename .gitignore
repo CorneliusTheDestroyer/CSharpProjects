@@ -1,3 +1,23 @@
-﻿*.vsidx
-ComicBookApi/ComicBookApi/bin
-ComicBookApi/ComicBookApi/obj
+﻿# Build Folders
+bin/
+obj/
+
+# VS Code / Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.DotSettings.user
+
+# Logs & Databases
+*.log
+*.sqlite
+*.db
+
+# Indexing/IDE files
+*.vsidx
+.vscode/
