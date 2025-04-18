@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Learning\\Projects\\ComicBookApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 30,
           "Children": [
             {
               "$type": "Document",
@@ -540,13 +540,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ComicsController.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\ComicsController.cs",
               "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\ComicsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:22:19.123Z",
               "EditorCaption": ""
@@ -579,13 +579,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Program.cs",
               "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeToolTip": "ComicBookApi\\Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:42:15.534Z",
               "EditorCaption": ""

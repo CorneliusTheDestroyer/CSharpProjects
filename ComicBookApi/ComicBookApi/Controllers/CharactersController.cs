@@ -6,9 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using ComicBookApi.DTOs;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ComicBookApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CharactersController : ControllerBase
@@ -42,6 +44,7 @@ namespace ComicBookApi.Controllers
             return Ok(characterDTO);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<CharacterDTO>> CreateCharacter([FromBody] CharacterCreateDTO dto)
         {
@@ -56,6 +59,7 @@ namespace ComicBookApi.Controllers
             return CreatedAtAction(nameof(GetCharacter), new { id = character.CharacterId }, result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCharacter(int id, [FromBody] CharacterCreateDTO dto)
         {
@@ -72,6 +76,7 @@ namespace ComicBookApi.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCharacter(int id)
         {

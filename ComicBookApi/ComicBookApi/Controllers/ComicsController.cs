@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ComicBookApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ComicsController : ControllerBase
@@ -23,6 +23,7 @@ namespace ComicBookApi.Controllers
             _mapper = mapper;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<ComicDTO>> CreateComic([FromBody] ComicCreateDTO dto)
         {
@@ -68,6 +69,7 @@ namespace ComicBookApi.Controllers
             return Ok(comicDTO);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateComic(int id, [FromBody] ComicCreateDTO dto)
         {
@@ -84,6 +86,7 @@ namespace ComicBookApi.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComic(int id)
         {

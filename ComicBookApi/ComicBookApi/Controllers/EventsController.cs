@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ComicBookApi.DTOs;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ComicBookApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class EventsController : ControllerBase
@@ -43,7 +45,7 @@ namespace ComicBookApi.Controllers
             return Ok(dto);
         }
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<EventDTO>> CreateEvent([FromBody] EventCreateDTO dto)
         {
@@ -58,6 +60,7 @@ namespace ComicBookApi.Controllers
             return CreatedAtAction(nameof(GetEvent), new { id = comicEvent.EventId }, result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateEvent(int id, [FromBody] EventCreateDTO dto)
         {
@@ -74,6 +77,7 @@ namespace ComicBookApi.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEvent(int id)
         {
