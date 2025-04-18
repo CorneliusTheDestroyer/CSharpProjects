@@ -1,5 +1,6 @@
 ﻿
 using ComicBookApi.Data;
+using ComicBookApi.Middlewares;
 using ComicBookApi.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -95,6 +96,8 @@ namespace ComicBookApi
             }
 
             app.UseHttpsRedirection();
+
+            app.UseMiddleware<ErrorHandlingMiddleware>();
 
             app.UseAuthentication();
 
