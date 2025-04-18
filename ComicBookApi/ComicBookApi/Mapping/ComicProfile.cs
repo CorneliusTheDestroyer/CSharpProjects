@@ -16,6 +16,7 @@ namespace ComicBookApi.Mapping
             CreateMap<ComicCreateDTO, Comic>();
 
             CreateMap<Character, CharacterDTO>();
+
             CreateMap<CharacterCreateDTO, Character>();
 
             CreateMap<Series, SeriesDTO>();
@@ -27,6 +28,14 @@ namespace ComicBookApi.Mapping
             CreateMap<Story, StoryDTO>()
                 .ForMember(dest => dest.ComicTitle,
                     opt => opt.MapFrom(src => src.Comic != null ? src.Comic.Title : null));
+
+            CreateMap<SeriesCreateDTO, Series>();
+
+            CreateMap<CreatorCreateDTO, Creator>();
+
+            CreateMap<EventCreateDTO, Event>();
+
+            CreateMap<StoryCreateDTO, Story>();
 
         }
     }

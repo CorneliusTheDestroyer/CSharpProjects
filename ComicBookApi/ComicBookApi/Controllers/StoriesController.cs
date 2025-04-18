@@ -48,39 +48,34 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Story>> CreateStory([FromBody] Story story)
+        public async Task<ActionResult<StoryDTO>> CreateStory([FromBody] StoryCreateDTO dto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var story = _mapper.Map<Story>(dto);
             _context.Stories.Add(story);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetStory), new { id = story.StoryId }, story);
+            var result = await _context.Stories
+                .Include(s => s.Comic)
+                .FirstOrDefaultAsync(s => s.StoryId == story.StoryId);
+
+            return CreatedAtAction(nameof(GetStory), new { id = result.StoryId }, _mapper.Map<StoryDTO>(result));
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateStory(int id, [FromBody] Story story)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateStory(int id, [FromBody] StoryCreateDTO dto)
         {
-            if (id != story.StoryId)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(story).State = EntityState.Modified;
-            
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Stories.Any(s => s.StoryId == id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            var story = await _context.Stories.FindAsync(id);
+            if (story == null)
+                return NotFound();
+
+            _mapper.Map(dto, story);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }

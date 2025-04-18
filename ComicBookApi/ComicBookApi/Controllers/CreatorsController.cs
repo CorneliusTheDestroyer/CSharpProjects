@@ -45,39 +45,31 @@ namespace ComicBookApi.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult<Creator>> CreateCreator([FromBody] Creator creator)
+        public async Task<ActionResult<CreatorDTO>> CreateCreator([FromBody] CreatorCreateDTO dto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var creator = _mapper.Map<Creator>(dto);
             _context.Creators.Add(creator);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetCreator), new { id = creator.CreatorId }, creator);
+            var result = _mapper.Map<CreatorDTO>(creator);
+            return CreatedAtAction(nameof(GetCreator), new { id = creator.CreatorId }, result);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCreator(int id, [FromBody] Creator creator)
+        public async Task<IActionResult> UpdateCreator(int id, [FromBody] CreatorCreateDTO dto)
         {
-            if (id != creator.CreatorId)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(creator).State = EntityState.Modified;
+            var creator = await _context.Creators.FindAsync(id);
+            if (creator == null)
+                return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Creators.Any(cr => cr.CreatorId == id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            _mapper.Map(dto, creator);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }

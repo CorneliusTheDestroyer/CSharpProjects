@@ -43,39 +43,31 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Series>> CreateSeries([FromBody] Series series)
+        public async Task<ActionResult<SeriesDTO>> CreateSeries([FromBody] SeriesCreateDTO dto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var series = _mapper.Map<Series>(dto);
             _context.Series.Add(series);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetSeries), new { id = series.SeriesId }, series);
+            var result = _mapper.Map<SeriesDTO>(series);
+            return CreatedAtAction(nameof(GetSeries), new { id = series.SeriesId }, result);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateSeries(int id, [FromBody] Series series)
+        public async Task<IActionResult> UpdateSeries(int id, [FromBody] SeriesCreateDTO dto)
         {
-            if (id != series.SeriesId)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(series).State = EntityState.Modified;
+            var series = await _context.Series.FindAsync(id);
+            if (series == null)
+                return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Series.Any(s => s.SeriesId == id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            _mapper.Map(dto, series);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
