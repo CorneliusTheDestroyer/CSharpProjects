@@ -42,17 +42,17 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Comic>> GetComic(int id)
+        public async Task<ActionResult<ComicDTO>> GetComic(int id)
         {
             var comic = await _context.Comics
                 .Include(c => c.Series)
                 .FirstOrDefaultAsync(c => c.ComicId == id);
 
             if (comic == null)
-            {
                 return NotFound();
-            }
-            return comic;
+
+            var comicDTO = _mapper.Map<ComicDTO>(comic);
+            return Ok(comicDTO);
         }
 
         [HttpPut("{id}")]

@@ -12,6 +12,9 @@ namespace ComicBookApi.Mapping
             CreateMap<Comic, ComicDTO>()
                 .ForMember(dest => dest.SeriesTitle,
                     opt => opt.MapFrom(src => src.Series != null ? src.Series.Title : null));
+
+            CreateMap<Character, CharacterDTO>();
+
         }
     }
 }
