@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ComicBookApi.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ComicsController : ControllerBase
@@ -44,10 +44,12 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ComicDTO>>> GetComics()
+        public async Task<ActionResult<IEnumerable<ComicDTO>>> GetComics(int pageNumber = 1, int pageSize = 10)
         {
             var comic = await _context.Comics
                 .Include(c => c.Series) // Needed for SeriesTitle mapping
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .ToListAsync();
 
             var comicDTOs = _mapper.Map<List<ComicDTO>>(comic);
