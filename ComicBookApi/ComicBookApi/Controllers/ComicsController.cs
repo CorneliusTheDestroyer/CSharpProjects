@@ -22,11 +22,22 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateComic([FromBody] Comic comic)
+        public async Task<ActionResult<ComicDTO>> CreateComic([FromBody] ComicCreateDTO dto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var comic = _mapper.Map<Comic>(dto);
             _context.Comics.Add(comic);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetComic), new { id = comic.ComicId }, comic);
+
+            // Reload with Series for mapping back to DTO
+            var createdComic = await _context.Comics
+                .Include(c => c.Series)
+                .FirstOrDefaultAsync(c => c.ComicId == comic.ComicId);
+
+            var result = _mapper.Map<ComicDTO>(createdComic);
+            return CreatedAtAction(nameof(GetComic), new { id = result.ComicId }, result);
         }
 
         [HttpGet]
@@ -56,26 +67,17 @@ namespace ComicBookApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateComic(int id, [FromBody] Comic comic)
+        public async Task<IActionResult> UpdateComic(int id, [FromBody] ComicCreateDTO dto)
         {
-            if (id != comic.ComicId)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(comic).State = EntityState.Modified;
+            var comic = await _context.Comics.FindAsync(id);
+            if (comic == null)
+                return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Comics.Any(e => e.ComicId == id))
-                    return NotFound();
-                
-                throw;
-            }
+            _mapper.Map(dto, comic); // apply changes from DTO to entity
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }

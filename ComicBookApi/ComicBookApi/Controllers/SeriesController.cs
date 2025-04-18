@@ -3,6 +3,8 @@ using ComicBookApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using ComicBookApi.DTOs;
 
 namespace ComicBookApi.Controllers
 {
@@ -11,33 +13,33 @@ namespace ComicBookApi.Controllers
     public class SeriesController : ControllerBase
     {
         private readonly ComicDbContext _context;
+        private readonly IMapper _mapper;
 
-        public SeriesController(ComicDbContext context)
+        public SeriesController(ComicDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Series>>> GetSeries()
+        public async Task<ActionResult<IEnumerable<SeriesDTO>>> GetSeries()
         {
-            return await _context.Series
-                .Include(s => s.Comics)
-                .ToListAsync();
+            var seriesList = await _context.Series.ToListAsync();
+            var dtoList = _mapper.Map<List<SeriesDTO>>(seriesList);
+
+            return Ok(dtoList);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Series>> GetSeries(int id)
+        public async Task<ActionResult<SeriesDTO>> GetSeries(int id)
         {
-            var series = await _context.Series
-                .Include(s => s.Comics)
-                .FirstOrDefaultAsync(s => s.SeriesId == id);
+            var series = await _context.Series.FindAsync(id);
 
             if (series == null)
-            {
                 return NotFound();
-            }
 
-            return series;
+            var dto = _mapper.Map<SeriesDTO>(series);
+            return Ok(dto);
         }
 
         [HttpPost]

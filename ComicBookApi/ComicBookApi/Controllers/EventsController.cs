@@ -3,6 +3,8 @@ using ComicBookApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ComicBookApi.DTOs;
+using AutoMapper;
 
 namespace ComicBookApi.Controllers
 {
@@ -11,30 +13,36 @@ namespace ComicBookApi.Controllers
     public class EventsController : ControllerBase
     {
         private readonly ComicDbContext _context;
+        private readonly IMapper _mapper;
 
-        public EventsController(ComicDbContext context)
+        public EventsController(ComicDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Event>>> GetEvents()
+        public async Task<ActionResult<IEnumerable<EventDTO>>> GetEvents()
         {
-            return await _context.Events.ToListAsync();
+            var events = await _context.Events.ToListAsync();
+            var dtoList = _mapper.Map<List<EventDTO>>(events);
+
+            return Ok(dtoList);
         }
 
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<Event>> GetEvent(int id)
+        public async Task<ActionResult<EventDTO>> GetEvent(int id)
         {
             var comicEvent = await _context.Events.FindAsync(id);
 
             if (comicEvent == null)
-            {
                 return NotFound();
-            }
 
-            return comicEvent;
+            var dto = _mapper.Map<EventDTO>(comicEvent);
+            return Ok(dto);
         }
+
 
         [HttpPost]
         public async Task<ActionResult<Event>> CreateEvent([FromBody] Event comicEvent)

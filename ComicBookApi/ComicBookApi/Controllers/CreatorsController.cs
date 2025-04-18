@@ -3,6 +3,8 @@ using ComicBookApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ComicBookApi.DTOs;
+using AutoMapper;
 
 namespace ComicBookApi.Controllers
 {
@@ -11,30 +13,36 @@ namespace ComicBookApi.Controllers
     public class CreatorsController : ControllerBase
     {
         private readonly ComicDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CreatorsController(ComicDbContext context)
+        public CreatorsController(ComicDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Creator>>> GetCreators()
+        public async Task<ActionResult<IEnumerable<CreatorDTO>>> GetCreators()
         {
-            return await _context.Creators.ToListAsync();
+            var creators = await _context.Creators.ToListAsync();
+            var dtoList = _mapper.Map<List<CreatorDTO>>(creators);
+
+            return Ok(dtoList);
         }
 
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<Creator>> GetCreator(int id)
+        public async Task<ActionResult<CreatorDTO>> GetCreator(int id)
         {
             var creator = await _context.Creators.FindAsync(id);
 
             if (creator == null)
-            {
                 return NotFound();
-            }
 
-            return creator;
+            var dto = _mapper.Map<CreatorDTO>(creator);
+            return Ok(dto);
         }
+
 
         [HttpPost]
         public async Task<ActionResult<Creator>> CreateCreator([FromBody] Creator creator)
