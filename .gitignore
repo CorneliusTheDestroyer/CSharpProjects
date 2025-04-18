@@ -21,3 +21,5 @@ obj/
 # Indexing/IDE files
 *.vsidx
 .vscode/
+ComicBookApi/ComicBookApi/bin
+ComicBookApi/ComicBookApi/obj
