@@ -1,0 +1,23 @@
+-- 🧼 Clear Join Tables First (due to FK constraints)
+DELETE FROM ComicCharacters;
+DELETE FROM ComicCreators;
+DELETE FROM ComicEvents;
+
+-- 🔄 Clear Main Tables
+DELETE FROM Comics;
+DELETE FROM Characters;
+DELETE FROM Creators;
+DELETE FROM Events;
+DELETE FROM Stories;
+DELETE FROM Series;
+
+-- 🎯 Optionally Reset Identity Counters
+DBCC CHECKIDENT ('ComicCharacters', RESEED, 0);
+DBCC CHECKIDENT ('ComicCreators', RESEED, 0);
+DBCC CHECKIDENT ('ComicEvents', RESEED, 0);
+DBCC CHECKIDENT ('Comics', RESEED, 0);
+DBCC CHECKIDENT ('Characters', RESEED, 0);
+DBCC CHECKIDENT ('Creators', RESEED, 0);
+DBCC CHECKIDENT ('Events', RESEED, 0);
+DBCC CHECKIDENT ('Stories', RESEED, 0);
+DBCC CHECKIDENT ('Series', RESEED, 0);

@@ -1,4 +1,4 @@
-# 🧱 Comic Book Web API – Architecture Overview (Victory Lap Edition)
+# 🧱 Comic Book Web API – Architecture Overview (Updated with SEQ Logging)
 
 ## 🎯 Project Summary
 
@@ -17,7 +17,9 @@ A full-featured RESTful Web API built with **.NET 8**, **Entity Framework Core**
 | Authentication   | JWT Bearer Tokens                        |
 | Serialization    | System.Text.Json + DTOs                  |
 | Object Mapping   | AutoMapper                               |
-| Dev Environment  | Visual Studio 2022                       |
+| Caching          | In-Memory Cache                          |
+| Logging          | Serilog + SEQ                            |
+| Dev Environment  | Visual Studio 2022 + Docker (Planned)    |
 
 ---
 
@@ -31,9 +33,10 @@ ComicBookApi/
 ├── Models/            # EF Core entity models
 ├── Services/          # JWT token generator
 ├── Data/              # DbContext
-├── Responses/         # (optional) base response wrappers
+├── Middlewares/       # Global error handler
+├── Responses/         # Base response wrapper
 ├── Program.cs         # Main config + DI + middleware
-├── appsettings.json   # Config (connection strings, JWT keys)
+├── appsettings.json   # Config (connection strings, JWT keys, Serilog)
 ```
 
 ---
@@ -62,7 +65,7 @@ ComicBookApi/
 - Uses JWT-based token auth
 - `AuthController` issues signed tokens on login
 - `Bearer` tokens passed via `Authorization: Bearer {token}` headers
-- `[Authorize]` attribute locks down endpoints
+- `[Authorize]` + `[Authorize(Roles = "...")]` for protection
 
 ---
 
@@ -72,8 +75,11 @@ ComicBookApi/
 |------------------|---------------------------------------------------|
 | **DTOs**         | Prevent circular refs, shape client-friendly data |
 | **AutoMapper**   | Model → DTO mapping and vice versa                |
-| **Validation**   | `DataAnnotations` (`[Required]`, `[MaxLength]`)   |
-| **Swagger**      | Enabled, clean response models                    |
+| **Validation**   | `[Required]`, `[MaxLength]` via CreateDTOs        |
+| **Swagger**      | Enabled, JWT integration supported                |
+| **BaseResponse** | Unified structure for all responses               |
+| **ErrorHandler** | Global middleware for 500 errors                  |
+| **Logging**      | Serilog with SEQ sink for structured log events   |
 
 ---
 
@@ -92,17 +98,33 @@ ComicBookApi/
 |--------------------|------------|------------------|
 | Comics             | ✅ ComicDTO | ✅ ComicCreateDTO |
 | Characters         | ✅ CharacterDTO | ✅ CharacterCreateDTO |
-| Series             | ✅ SeriesDTO | ❌ (optional next) |
-| Creators           | ✅ CreatorDTO | ❌ (optional next) |
-| Events             | ✅ EventDTO | ❌ (optional next) |
-| Stories            | ✅ StoryDTO | ❌ (optional next) |
+| Series             | ✅ SeriesDTO | ✅ SeriesCreateDTO |
+| Creators           | ✅ CreatorDTO | ✅ CreatorCreateDTO |
+| Events             | ✅ EventDTO | ✅ EventCreateDTO |
+| Stories            | ✅ StoryDTO | ✅ StoryCreateDTO |
 
 ---
 
-## 🧭 Next Steps (Phase 3+ and beyond)
+## 🔍 Logging & Observability
 
-- Add CreateDTOs + validation for Series, Events, etc.
-- Add BaseResponse<T> wrapper for consistent responses
-- Add pagination, caching
-- Deploy via Docker or Azure App Service
-- Add a frontend (Angular? Blazor? React?)
+- Integrated **Serilog**
+- Logs structured events to **SEQ**
+- Logs unhandled exceptions in `ErrorHandlingMiddleware`
+- Future ready for SEQ dashboard monitoring, alerts, and search
+
+---
+
+## ✅ Performance Features
+
+- Pagination on `GET` endpoints
+- In-memory caching for repeated queries
+- Async/await for non-blocking performance
+- `.AsNoTracking()` for read-only calls
+
+---
+
+## 🧭 Next Steps (Deployment & CI/CD)
+
+- Dockerize the API for cross-platform deployment
+- Push to Azure App Service (or other)
+- Set up CI/CD via GitHub Actions or Azure Pipelines
