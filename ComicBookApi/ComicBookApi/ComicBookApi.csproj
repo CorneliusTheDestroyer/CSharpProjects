@@ -28,9 +28,10 @@
     <Content Update="wwwroot\swagger\swagger-initializer.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\swagger\swagger-inject.js">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\swagger\" />
   </ItemGroup>
 
 </Project>

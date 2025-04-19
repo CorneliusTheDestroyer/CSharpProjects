@@ -42,42 +42,8 @@ namespace ComicBookApi
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            //builder.Services.AddSwaggerGen();
-            //builder.Services.AddSwaggerGen(options =>
-            //{
-            //    options.SwaggerDoc("v1", new OpenApiInfo
-            //    {
-            //        Title = "Comic Book API",
-            //        Version = "v1"
-            //    });
-
-            //    //Add JWT Auth support
-            //    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-            //    {
-            //        Description = "Enter a valid JWT token below. Use format: Bearer {your token}",
-            //        Name = "Authorization",
-            //        In = ParameterLocation.Header,
-            //        Type = SecuritySchemeType.ApiKey,
-            //        Scheme = "Bearer"
-            //    });
-
-            //    options.AddSecurityRequirement(new OpenApiSecurityRequirement
-            //    {
-            //        {
-            //            new OpenApiSecurityScheme
-            //            {
-            //                Reference = new OpenApiReference
-            //                {
-            //                    Type = ReferenceType.SecurityScheme,
-            //                    Id = "Bearer"
-            //                }
-            //            },
-            //            Array.Empty<string>()
-            //        }
-            //    });
-            //});
+            
             builder.Services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Comic Book API", Version = "v1" });
@@ -121,7 +87,6 @@ namespace ComicBookApi
 
             builder.Host.UseSerilog();
 
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -130,11 +95,11 @@ namespace ComicBookApi
                 app.UseStaticFiles(); // this serves files from wwwroot/
 
                 app.UseSwagger();
-                //app.UseSwaggerUI();
+
                 app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comic Book API v1");
-                    c.InjectJavascript("/swagger/swagger-inject.js"); 
+                    //c.InjectJavascript("/swagger/swagger-inject.js"); 
                 });
 
             }
