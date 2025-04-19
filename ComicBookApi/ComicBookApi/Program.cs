@@ -17,6 +17,8 @@ namespace ComicBookApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.WebHost.UseUrls("http://+:80");
+
             builder.Services.AddAuthentication("Bearer")
             .AddJwtBearer("Bearer", options =>
             {
@@ -90,8 +92,8 @@ namespace ComicBookApi
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
                 app.UseStaticFiles(); // this serves files from wwwroot/
 
                 app.UseSwagger();
@@ -102,7 +104,7 @@ namespace ComicBookApi
                     //c.InjectJavascript("/swagger/swagger-inject.js"); 
                 });
 
-            }
+            //}
 
             app.UseHttpsRedirection();
 
@@ -114,6 +116,12 @@ namespace ComicBookApi
 
 
             app.MapControllers();
+
+            //using (var scope = app.Services.CreateScope())
+            //{
+            //    var services = scope.ServiceProvider;
+            //    SeedData.Initialize(services); // 👉 rename if you use SeedDataExtended.cs
+            //}
 
             app.Run();
         }

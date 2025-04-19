@@ -1,0 +1,7 @@
+
+--SQL docker
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Ringding1." -p 1433:1433 --name sqlcomic -d mcr.microsoft.com/mssql/server:2022-latest
+
+--API docker
+docker build -t comicbookapi .
+docker run -d -p 8080:80 --name comicapi comicbookapi

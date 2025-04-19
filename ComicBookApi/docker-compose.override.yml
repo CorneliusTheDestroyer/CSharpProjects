@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  comicapi:
+    command: >
+      sh -c "dotnet ef database update && dotnet ComicBookApi.dll"
+    depends_on:
+      sqldb:
+        condition: service_healthy

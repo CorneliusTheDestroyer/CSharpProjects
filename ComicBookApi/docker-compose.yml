@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  comicapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqldb,1433;Database=ComicDb;User Id=sa;Password=MyStrong!Pass123;TrustServerCertificate=True;
+    depends_on:
+      - sqldb
+
+  sqldb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlcomic
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "MyStrong!Pass123"
+      ACCEPT_EULA: "Y"
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "Ringding1.", "-Q", "SELECT 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
