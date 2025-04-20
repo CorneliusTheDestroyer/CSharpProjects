@@ -17,7 +17,10 @@ namespace ComicBookApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.WebHost.UseUrls("http://+:80");
+            if (builder.Environment.IsProduction())
+            {
+                builder.WebHost.UseUrls("http://+:80");
+            }
 
             builder.Services.AddAuthentication("Bearer")
             .AddJwtBearer("Bearer", options =>
@@ -82,9 +85,16 @@ namespace ComicBookApi
 
             builder.Services.AddMemoryCache();
 
+            //Log.Logger = new LoggerConfiguration()
+            //    .ReadFrom.Configuration(builder.Configuration)
+            //    .Enrich.FromLogContext()
+            //    .CreateLogger();
+
             Log.Logger = new LoggerConfiguration()
-                .ReadFrom.Configuration(builder.Configuration)
+                .WriteTo.Console()
+                .WriteTo.Seq("http://host.docker.internal:5341") // 👈 This is the key
                 .Enrich.FromLogContext()
+                .MinimumLevel.Debug()
                 .CreateLogger();
 
             builder.Host.UseSerilog();
@@ -94,15 +104,17 @@ namespace ComicBookApi
             // Configure the HTTP request pipeline.
             //if (app.Environment.IsDevelopment())
             //{
-                app.UseStaticFiles(); // this serves files from wwwroot/
+            app.UseStaticFiles(); // this serves files from wwwroot/
 
-                app.UseSwagger();
+            app.UseRouting();
 
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comic Book API v1");
-                    //c.InjectJavascript("/swagger/swagger-inject.js"); 
-                });
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comic Book API v1");
+                //c.InjectJavascript("/swagger/swagger-inject.js"); 
+            });
 
             //}
 
@@ -122,6 +134,9 @@ namespace ComicBookApi
             //    var services = scope.ServiceProvider;
             //    SeedData.Initialize(services); // 👉 rename if you use SeedDataExtended.cs
             //}
+
+            //app.Logger.LogInformation("🚀 SEQ TEST: ComicBook API started inside Docker and should log this!");
+
 
             app.Run();
         }
