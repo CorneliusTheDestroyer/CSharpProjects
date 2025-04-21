@@ -1,177 +1,177 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Learning\\Projects\\ComicBookApi\\",
+  "WorkspaceRootPath": "C:\\Learning\\CSharpProjects\\ComicBookApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\charactercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\charactercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\charactercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\migrations\\20250419074428_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\migrations\\20250419074428_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\migrations\\20250419074428_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\data\\comicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\data\\comicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\data\\comicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\seriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\responses\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\responses\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\responses\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\storiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\storiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\storiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\controllers\\creatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\controllers\\creatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\controllers\\creatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\mapping\\comicprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\mapping\\comicprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\mapping\\comicprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\storycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\storycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\storycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\eventcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\eventcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\eventcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\creatorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\creatorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\creatorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\seriescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\seriescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\seriescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\storydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\storydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\storydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\creatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\creatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\creatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\seriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\seriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\seriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\comiccreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\comiccreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\comiccreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\dtos\\comicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\dtos\\comicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\dtos\\comicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\comicbookapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\comicbookapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\comicbookapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\comicevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\comicevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\comicevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\comiccreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\comiccreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\comiccreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\comiccharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\comiccharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\comiccharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\projects\\comicbookapi\\comicbookapi\\models\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|c:\\learning\\csharpprojects\\comicbookapi\\comicbookapi\\models\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B34D2791-75BE-4C17-AB5B-5F3E0ADF8C7D}|ComicBookApi\\ComicBookApi.csproj|solutionrelative:comicbookapi\\models\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -182,523 +182,563 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ComicBookApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ComicBookApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T07:50:57.537Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Data\\SeedData.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Data\\SeedData.cs",
               "RelativeToolTip": "ComicBookApi\\Data\\SeedData.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:13:33.332Z"
+              "WhenOpened": "2025-04-19T16:13:33.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UserRegisterDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\UserRegisterDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\UserRegisterDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\UserRegisterDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\UserRegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:48:36.476Z"
+              "WhenOpened": "2025-04-19T07:48:36.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "20250419074428_AddUserTable.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
               "RelativeToolTip": "ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:44:28.956Z"
+              "WhenOpened": "2025-04-19T07:44:28.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Services\\AuthService.cs",
               "RelativeToolTip": "ComicBookApi\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:38:39.744Z"
+              "WhenOpened": "2025-04-19T07:38:39.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\User.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\User.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\User.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:35:01.535Z"
+              "WhenOpened": "2025-04-19T07:35:01.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
               "RelativeToolTip": "ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:58:29.108Z"
+              "WhenOpened": "2025-04-18T17:58:29.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "ResponseHelper.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\ResponseHelper.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Responses\\ResponseHelper.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Responses\\ResponseHelper.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\ResponseHelper.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Responses\\ResponseHelper.cs",
               "RelativeToolTip": "ComicBookApi\\Responses\\ResponseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:48:49.957Z"
+              "WhenOpened": "2025-04-18T17:48:49.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "BaseResponse.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\BaseResponse.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Responses\\BaseResponse.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Responses\\BaseResponse.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Responses\\BaseResponse.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Responses\\BaseResponse.cs",
               "RelativeToolTip": "ComicBookApi\\Responses\\BaseResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:47:44.655Z"
+              "WhenOpened": "2025-04-18T17:47:44.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:43:59.766Z"
+              "WhenOpened": "2025-04-18T13:43:59.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Services\\JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Services\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Services\\JwtTokenService.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Services\\JwtTokenService.cs",
               "RelativeToolTip": "ComicBookApi\\Services\\JwtTokenService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:42:04.766Z"
+              "WhenOpened": "2025-04-18T13:42:04.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\appsettings.json",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\appsettings.json",
               "RelativeDocumentMoniker": "ComicBookApi\\appsettings.json",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\appsettings.json",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\appsettings.json",
               "RelativeToolTip": "ComicBookApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-18T13:40:09.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ComicBookApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ComicBookApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T07:50:57.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
               "Title": "StoryCreateDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryCreateDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\StoryCreateDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryCreateDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryCreateDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\StoryCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:00:38.14Z"
+              "WhenOpened": "2025-04-18T13:00:38.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "EventCreateDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\EventCreateDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\EventCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\EventCreateDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\EventCreateDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\EventCreateDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\EventCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:00:13.144Z"
+              "WhenOpened": "2025-04-18T13:00:13.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "CreatorCreateDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:59:48.057Z"
+              "WhenOpened": "2025-04-18T12:59:48.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "SeriesCreateDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:59:10.506Z"
+              "WhenOpened": "2025-04-18T12:59:10.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "StoryDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\StoryDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\StoryDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\StoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:40:27.566Z"
+              "WhenOpened": "2025-04-18T12:40:27.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "EventDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\EventDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\EventDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\EventDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\EventDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\EventDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\EventDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:36:14.555Z"
+              "WhenOpened": "2025-04-18T12:36:14.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "CreatorDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CreatorDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CreatorDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\CreatorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:31:53.765Z"
+              "WhenOpened": "2025-04-18T12:31:53.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "SeriesDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\SeriesDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\SeriesDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\SeriesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:25:26.182Z"
+              "WhenOpened": "2025-04-18T12:25:26.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "ComicCreateDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicCreateDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\ComicCreateDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicCreateDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicCreateDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\ComicCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:12:44.694Z"
+              "WhenOpened": "2025-04-18T12:12:44.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CharacterCreateDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:55:13.383Z"
+              "WhenOpened": "2025-04-18T11:55:13.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CharacterDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\CharacterDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\CharacterDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\CharacterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:39:42.794Z"
+              "WhenOpened": "2025-04-18T11:39:42.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "ComicProfile.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Mapping\\ComicProfile.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Mapping\\ComicProfile.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Mapping\\ComicProfile.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Mapping\\ComicProfile.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Mapping\\ComicProfile.cs",
               "RelativeToolTip": "ComicBookApi\\Mapping\\ComicProfile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T10:08:44.135Z"
+              "WhenOpened": "2025-04-18T10:08:44.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "ComicDTO.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicDTO.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicDTO.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\DTOs\\ComicDTO.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicDTO.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\DTOs\\ComicDTO.cs",
               "RelativeToolTip": "ComicBookApi\\DTOs\\ComicDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T10:05:29.857Z"
+              "WhenOpened": "2025-04-18T10:05:29.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "ComicBookApi.csproj",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj",
               "RelativeDocumentMoniker": "ComicBookApi\\ComicBookApi.csproj",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\ComicBookApi.csproj",
               "RelativeToolTip": "ComicBookApi\\ComicBookApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-18T10:02:59.556Z"
+              "WhenOpened": "2025-04-18T10:02:59.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "StoriesController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\StoriesController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\StoriesController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\StoriesController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\StoriesController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\StoriesController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\StoriesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:37:02.716Z"
+              "WhenOpened": "2025-03-30T08:37:02.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\EventsController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\EventsController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\EventsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:27:36.362Z"
+              "WhenOpened": "2025-03-30T08:27:36.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "CreatorsController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\CreatorsController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\CreatorsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\CreatorsController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\CreatorsController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\CreatorsController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\CreatorsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:17:34.874Z"
+              "WhenOpened": "2025-03-30T08:17:34.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "SeriesController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\SeriesController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\SeriesController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\SeriesController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\SeriesController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\SeriesController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\SeriesController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:55:12.077Z"
+              "WhenOpened": "2025-03-30T07:55:12.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "CharactersController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\CharactersController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\CharactersController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\CharactersController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\CharactersController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\CharactersController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:34:09.238Z"
+              "WhenOpened": "2025-03-30T07:34:09.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Character.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Character.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Character.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Character.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Character.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:36:27.762Z"
+              "WhenOpened": "2025-03-27T07:36:27.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "Comic.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Comic.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Comic.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Comic.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Comic.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Comic.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\Comic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:35:46.591Z"
+              "WhenOpened": "2025-03-27T07:35:46.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "ComicEvent.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicEvent.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\ComicEvent.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\ComicEvent.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicEvent.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\ComicEvent.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\ComicEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:39:01.605Z"
+              "WhenOpened": "2025-03-27T07:39:01.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "Creator.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Creator.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Creator.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Creator.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Creator.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Creator.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\Creator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:37:30.743Z"
+              "WhenOpened": "2025-03-27T07:37:30.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Event.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Event.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Event.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Event.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Event.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:38:36.82Z"
+              "WhenOpened": "2025-03-27T07:38:36.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "Series.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Series.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Series.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Series.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Series.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Series.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\Series.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:34:33.024Z"
+              "WhenOpened": "2025-03-27T07:34:33.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "Story.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Story.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Story.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\Story.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\Story.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\Story.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\Story.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:39:30.269Z"
+              "WhenOpened": "2025-03-27T07:39:30.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ComicDbContext.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Data\\ComicDbContext.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Data\\ComicDbContext.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Data\\ComicDbContext.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Data\\ComicDbContext.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Data\\ComicDbContext.cs",
               "RelativeToolTip": "ComicBookApi\\Data\\ComicDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:14:57.404Z"
+              "WhenOpened": "2025-03-27T07:14:57.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ComicsController.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Controllers\\ComicsController.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Controllers\\ComicsController.cs",
               "RelativeToolTip": "ComicBookApi\\Controllers\\ComicsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:22:19.123Z"
+              "WhenOpened": "2025-03-27T07:22:19.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "ComicCreator.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicCreator.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\ComicCreator.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\ComicCreator.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicCreator.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\ComicCreator.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\ComicCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:37:59.253Z"
+              "WhenOpened": "2025-03-27T07:37:59.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "ComicCharacter.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicCharacter.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\ComicCharacter.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Models\\ComicCharacter.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Models\\ComicCharacter.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Models\\ComicCharacter.cs",
               "RelativeToolTip": "ComicBookApi\\Models\\ComicCharacter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:36:55.062Z"
+              "WhenOpened": "2025-03-27T07:36:55.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Program.cs",
+              "DocumentMoniker": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeDocumentMoniker": "ComicBookApi\\Program.cs",
-              "ToolTip": "C:\\Learning\\Projects\\ComicBookApi\\ComicBookApi\\Program.cs",
+              "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeToolTip": "ComicBookApi\\Program.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAIBJwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:42:15.534Z",
               "EditorCaption": ""
