@@ -3,76 +3,81 @@ using ComicBookApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ComicBookApi.DTOs;
+using AutoMapper;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Authorization;
+using ComicBookApi.Responses;
 
 namespace ComicBookApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CharactersController : ControllerBase
     {
         private readonly ComicDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CharactersController(ComicDbContext context)
+        public CharactersController(ComicDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Character>>> GetCharacters()
+        public async Task<ActionResult<IEnumerable<CharacterDTO>>> GetCharacters()
         {
-            return await _context.Characters.ToListAsync();
+            var characters = await _context.Characters.ToListAsync();
+            var characterDTOs = _mapper.Map<List<CharacterDTO>>(characters);
+            return Ok(characterDTOs);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Character>> GetCharacter(int id)
+        public async Task<ActionResult<CharacterDTO>> GetCharacter(int id)
         {
             var character = await _context.Characters.FindAsync(id);
 
             if (character == null)
-            {
-                return NotFound();
-            }
+                return NotFound(ResponseHelper.Fail<CharacterDTO>("Character not found"));
 
-            return character;
+            var characterDTO = _mapper.Map<CharacterDTO>(character);
+            return Ok(ResponseHelper.Ok(characterDTO, "Character retrieved successfully"));
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<ActionResult<Character>> CreateCharacter([FromBody] Character character)
+        public async Task<ActionResult<CharacterDTO>> CreateCharacter([FromBody] CharacterCreateDTO dto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            
+            var character = _mapper.Map<Character>(dto);
             _context.Characters.Add(character);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetCharacter), new { id = character.CharacterId }, character);
+            
+            var result = _mapper.Map<CharacterDTO>(character);
+            return CreatedAtAction(nameof(GetCharacter), new { id = character.CharacterId }, result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCharacter(int id, [FromBody] Character character)
+        public async Task<IActionResult> UpdateCharacter(int id, [FromBody] CharacterCreateDTO dto)
         {
-            if (id != character.CharacterId)
-            {
-                return BadRequest();
-            }
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            _context.Entry(character).State = EntityState.Modified;
+            var character = await _context.Characters.FindAsync(id);
+            if (character == null)
+                return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Characters.Any(e => e.CharacterId == id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            _mapper.Map(dto, character); // update existing character with new values
 
+            await _context.SaveChangesAsync();
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCharacter(int id)
         {
