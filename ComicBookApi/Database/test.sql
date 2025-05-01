@@ -8,3 +8,5 @@ select * from ComicCreators
 select * from Events
 select * from ComicEvents
 select * from Stories
+
+select * from Users

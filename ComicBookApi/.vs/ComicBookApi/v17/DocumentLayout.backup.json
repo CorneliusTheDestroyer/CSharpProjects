@@ -194,8 +194,7 @@
               "RelativeToolTip": "ComicBookApi\\Data\\SeedData.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:13:33.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:13:33.332Z"
             },
             {
               "$type": "Document",
@@ -207,8 +206,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\UserRegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:48:36.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T07:48:36.476Z"
             },
             {
               "$type": "Document",
@@ -220,8 +218,7 @@
               "RelativeToolTip": "ComicBookApi\\Migrations\\20250419074428_AddUserTable.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:44:28.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T07:44:28.956Z"
             },
             {
               "$type": "Document",
@@ -233,8 +230,7 @@
               "RelativeToolTip": "ComicBookApi\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:38:39.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T07:38:39.744Z"
             },
             {
               "$type": "Document",
@@ -246,8 +242,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:35:01.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T07:35:01.535Z"
             },
             {
               "$type": "Document",
@@ -259,8 +254,7 @@
               "RelativeToolTip": "ComicBookApi\\Middlewares\\ErrorHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:58:29.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T17:58:29.108Z"
             },
             {
               "$type": "Document",
@@ -272,8 +266,7 @@
               "RelativeToolTip": "ComicBookApi\\Responses\\ResponseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:48:49.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T17:48:49.957Z"
             },
             {
               "$type": "Document",
@@ -285,8 +278,7 @@
               "RelativeToolTip": "ComicBookApi\\Responses\\BaseResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:47:44.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T17:47:44.655Z"
             },
             {
               "$type": "Document",
@@ -298,8 +290,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:43:59.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T13:43:59.766Z"
             },
             {
               "$type": "Document",
@@ -311,8 +302,7 @@
               "RelativeToolTip": "ComicBookApi\\Services\\JwtTokenService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:42:04.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T13:42:04.766Z"
             },
             {
               "$type": "Document",
@@ -322,7 +312,7 @@
               "RelativeDocumentMoniker": "ComicBookApi\\appsettings.json",
               "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\appsettings.json",
               "RelativeToolTip": "ComicBookApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-18T13:40:09.706Z",
               "EditorCaption": ""
@@ -350,8 +340,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\StoryCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:00:38.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T13:00:38.14Z"
             },
             {
               "$type": "Document",
@@ -363,8 +352,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\EventCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:00:13.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T13:00:13.144Z"
             },
             {
               "$type": "Document",
@@ -376,8 +364,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\CreatorCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:59:48.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:59:48.057Z"
             },
             {
               "$type": "Document",
@@ -389,8 +376,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\SeriesCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:59:10.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:59:10.506Z"
             },
             {
               "$type": "Document",
@@ -402,8 +388,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\StoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:40:27.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:40:27.566Z"
             },
             {
               "$type": "Document",
@@ -415,8 +400,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\EventDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:36:14.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:36:14.555Z"
             },
             {
               "$type": "Document",
@@ -428,8 +412,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\CreatorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:31:53.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:31:53.765Z"
             },
             {
               "$type": "Document",
@@ -441,8 +424,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\SeriesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:25:26.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:25:26.182Z"
             },
             {
               "$type": "Document",
@@ -454,8 +436,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\ComicCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T12:12:44.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T12:12:44.694Z"
             },
             {
               "$type": "Document",
@@ -467,8 +448,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\CharacterCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:55:13.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T11:55:13.383Z"
             },
             {
               "$type": "Document",
@@ -480,8 +460,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\CharacterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:39:42.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T11:39:42.794Z"
             },
             {
               "$type": "Document",
@@ -493,8 +472,7 @@
               "RelativeToolTip": "ComicBookApi\\Mapping\\ComicProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T10:08:44.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T10:08:44.135Z"
             },
             {
               "$type": "Document",
@@ -506,8 +484,7 @@
               "RelativeToolTip": "ComicBookApi\\DTOs\\ComicDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T10:05:29.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T10:05:29.857Z"
             },
             {
               "$type": "Document",
@@ -519,8 +496,7 @@
               "RelativeToolTip": "ComicBookApi\\ComicBookApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-18T10:02:59.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T10:02:59.556Z"
             },
             {
               "$type": "Document",
@@ -532,8 +508,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\StoriesController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:37:02.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T08:37:02.716Z"
             },
             {
               "$type": "Document",
@@ -545,8 +520,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\EventsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:27:36.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T08:27:36.362Z"
             },
             {
               "$type": "Document",
@@ -558,8 +532,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\CreatorsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:17:34.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T08:17:34.874Z"
             },
             {
               "$type": "Document",
@@ -571,8 +544,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\SeriesController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:55:12.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T07:55:12.077Z"
             },
             {
               "$type": "Document",
@@ -584,8 +556,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\CharactersController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:34:09.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T07:34:09.238Z"
             },
             {
               "$type": "Document",
@@ -597,8 +568,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\Character.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:36:27.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:36:27.762Z"
             },
             {
               "$type": "Document",
@@ -610,8 +580,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\Comic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:35:46.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:35:46.591Z"
             },
             {
               "$type": "Document",
@@ -623,8 +592,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\ComicEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:39:01.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:39:01.605Z"
             },
             {
               "$type": "Document",
@@ -636,8 +604,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\Creator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:37:30.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:37:30.743Z"
             },
             {
               "$type": "Document",
@@ -649,8 +616,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:38:36.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:38:36.82Z"
             },
             {
               "$type": "Document",
@@ -662,8 +628,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\Series.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:34:33.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:34:33.024Z"
             },
             {
               "$type": "Document",
@@ -675,8 +640,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\Story.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:39:30.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:39:30.269Z"
             },
             {
               "$type": "Document",
@@ -688,8 +652,7 @@
               "RelativeToolTip": "ComicBookApi\\Data\\ComicDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:14:57.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:14:57.404Z"
             },
             {
               "$type": "Document",
@@ -701,8 +664,7 @@
               "RelativeToolTip": "ComicBookApi\\Controllers\\ComicsController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:22:19.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:22:19.123Z"
             },
             {
               "$type": "Document",
@@ -714,8 +676,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\ComicCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:37:59.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:37:59.253Z"
             },
             {
               "$type": "Document",
@@ -727,8 +688,7 @@
               "RelativeToolTip": "ComicBookApi\\Models\\ComicCharacter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:36:55.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:36:55.062Z"
             },
             {
               "$type": "Document",
@@ -738,7 +698,7 @@
               "RelativeDocumentMoniker": "ComicBookApi\\Program.cs",
               "ToolTip": "C:\\Learning\\CSharpProjects\\ComicBookApi\\ComicBookApi\\Program.cs",
               "RelativeToolTip": "ComicBookApi\\Program.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAIBJwJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T07:42:15.534Z",
               "EditorCaption": ""
