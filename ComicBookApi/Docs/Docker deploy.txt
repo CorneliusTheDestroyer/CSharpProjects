@@ -1,10 +1,12 @@
 
 --SQL docker (Remove manually from Docker Desktop before re-deploying)
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Ringdingbing1." -p 1433:1433 --name sqlcomic -d mcr.microsoft.com/mssql/server:2022-latest
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Ringding123." -p 1433:1433 --name sqlcomic -d mcr.microsoft.com/mssql/server:2022-latest
+
 Update-Database (Package Manager Console in VS)
 
 --API docker (Remove manually from Docker Desktop before re-deploying)
 docker build -t comicbookapi .
+
 docker run -d -p 8080:80 --name comicapi comicbookapi
 
 --SEQ (Remove manually from Docker Desktop before re-deploying)
